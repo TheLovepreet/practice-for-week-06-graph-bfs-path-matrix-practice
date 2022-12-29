@@ -97,7 +97,7 @@ describe('bfsPath', () => {
     [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5 ]
   ];
 
-  it('Traverses the entire matrix and returns an array of all coordinates with no duplicates', () => {
+ it('Traverses the entire matrix and returns an array of all coordinates with no duplicates', () => {
 
     const traversedPath1 = bfsPath(matrix1, [0,0], 16);
 
